@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import axios from 'axios';
+import React from 'react';
 
 class App extends React.Component {
   state = {
@@ -25,7 +25,7 @@ class App extends React.Component {
       <header className="App-header">
         GoodThings
       </header>
-      {this.state.dev}
+      {this.state.data}
     </div>
   );
 }
